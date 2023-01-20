@@ -28,7 +28,7 @@ export const Navbar = () => {
                   ABOUT ME
                 </li>
                 <li className="py-8 px-6 w-full text-slate-300 text-xs">
-                  SKILLS{" "}
+                  SKILLS
                 </li>
                 <li className="py-8 px-6 w-full text-slate-300 text-xs">
                   SERVICES
