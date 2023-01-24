@@ -35,6 +35,7 @@ function App() {
     <div className="App">
       <div className="w-100 h-100 bg-slate-800">
         <Navbar />
+
         <AboutMe
           TogaPic={TogaPic}
           facebook={facebook}
@@ -42,7 +43,6 @@ function App() {
           insta={insta}
           github={github}
         />
-
         <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
           <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base">
             MY SKILLS
