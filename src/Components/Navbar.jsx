@@ -1,9 +1,11 @@
 import React from "react";
 
+import FadeInOnScroll from "../Utils/FadeInOnScroll";
+
 export const Navbar = () => {
   return (
     <>
-      <nav className="fixed  top-0 left-0 bg-slate-800 w-full shadow-md">
+      <nav className="fixed  top-0 left-0 bg-slate-800 w-full shadow-md z-10">
         <div className="container m-auto flex justify-between items-center">
           <h1 className="pl-8 py-5 text-xl text-rose-600 font-bold">PPORT</h1>
           <ul className="hidden md:flex items-center pr-10 text-base cursor-pointer">

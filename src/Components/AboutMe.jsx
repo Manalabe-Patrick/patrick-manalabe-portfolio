@@ -31,7 +31,7 @@ const AboutMe = ({ facebook, link, insta, github, TogaPic }) => {
         </FadeInOnScroll>
       </section>
 
-      <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
+      <section className="pt-30 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
         <div className="lg:flex">
           <FadeInOnScroll>
             <div className="lg:pr-20">
