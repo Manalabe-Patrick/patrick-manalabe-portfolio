@@ -1,7 +1,5 @@
 import React from "react";
 
-import FadeInOnScroll from "../Utils/FadeInOnScroll";
-
 export const Navbar = () => {
   return (
     <>
