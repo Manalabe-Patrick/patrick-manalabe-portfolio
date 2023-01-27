@@ -13,6 +13,8 @@ import AboutMe from "./Components/AboutMe";
 import MySkills from "./Components/MySkills";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
+import ContactMe from "./Components/ContactMe";
+
 function App() {
   return (
     <div className="App">
@@ -30,6 +32,7 @@ function App() {
         <MySkills />
         <Experience />
         <Projects />
+        <ContactMe />
       </div>
     </div>
   );
