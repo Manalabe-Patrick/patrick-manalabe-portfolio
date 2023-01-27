@@ -11,9 +11,9 @@ h1{
 }
 
 .toga-pic{
-    box-shadow: 20px 20px 0px -8px rgba(246,15,85,0.75);
-    -webkit-box-shadow: 20px 20px 0px -8px rgba(246,15,85,0.75);
-    -moz-box-shadow: 20px 20px 0px -8px rgba(246,15,85,0.75);
+    box-shadow: 20px 20px 0px -8px #d1d5db;
+    -webkit-box-shadow: 20px 20px 0px -8px #d1d5db;
+    -moz-box-shadow: 20px 20px 0px -8px #d1d5db;
 }
 
 .content{

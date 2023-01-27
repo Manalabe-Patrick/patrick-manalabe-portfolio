@@ -16,20 +16,23 @@ import phpIcon from "../Assets/images/icon_php.svg";
 import sqlserver from "../Assets/images/icon_sqlserver.svg";
 import mongodb from "../Assets/images/icon_mongo.svg";
 import mysql from "../Assets/images/icon_mysql.svg";
-import arrow from "../Assets/images/icon_arrow.svg";
+import arrow from "../Assets/images/icon_check.svg";
 import nodeIcon from "../Assets/images/icon_node.svg";
 import Tools from "../Components/Tools";
 import Skills from "../Components/Skills";
 
 const MySkills = () => {
   return (
-    <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
+    <section
+      className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full"
+      id="my_skills"
+    >
       <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base">
         MY SKILLS
       </h1>
-      <hr className="border-rose-600 py-2" />
+      <hr className="border-gray-500 py-2" />
       <p className="text-slate-300 text-sm  py-2 md:text-base pb-10">
-        Porgamming Languages, tools, and frameworks:
+        Programming Languages, tools, and frameworks:
       </p>
 
       <div className="flex justify-between flex-wrap">
@@ -61,10 +64,10 @@ const MySkills = () => {
       />
       <Skills
         icon={arrow}
-        text="Knowledge of web development frameworks and libraries. Proficiency on different programming languages."
+        text="Knowledge of web development frameworks and libraries. "
       />
-      <Skills icon={arrow} text="Familiarity with web development tools." />
-      <Skills icon={arrow} text="REST api, MERN stack and MEAN stack" />
+      <Skills icon={arrow} text="Proficiency with web development tools." />
+      <Skills icon={arrow} text="Develop REST api, MERN stack and MEAN stack" />
       <Skills
         icon={arrow}
         text="Can write clean, well-organized, and maintainable code."

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import arrow from "../Assets/images/icon_arrow.svg";
+import arrow from "../Assets/images/icon_check.svg";
 import Skills from "./Skills";
 
 const Experience = () => {
@@ -20,24 +20,25 @@ const Experience = () => {
 
   const [data, setData] = useState(giolosts);
   const [btn, SetBtn] = useState("giolosts");
-  const [ojtName, setOjtName] = useState(
-    "Allied Care Experts Medical Center - Baypointe"
-  );
-  const [ojtDate, setoOjtDate] = useState("August 2022 - January 2023");
-  const [title, setTitle] = useState("MIS PROGRAMMER");
+  const [ojtName, setOjtName] = useState("Giolosts Technologies");
+  const [ojtDate, setoOjtDate] = useState("March 2022 - June 2022");
+  const [title, setTitle] = useState("WEB DEVELOPER (INTERN)");
 
   return (
-    <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
-      <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base">
+    <section
+      className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full"
+      id="my_exp"
+    >
+      <h1 className="text-bmd py-3 text-gray-500 font-bold md:text-base">
         EXPERIENCE
       </h1>
-      <hr className="border-rose-600 py-2" />
+      <hr className="border-gray-500 py-2" />
 
       <div className="flex">
         <button
           className={
             btn === "giolosts"
-              ? "text-slate-300 px-10 border-b-4 border-rose-600"
+              ? "text-slate-300 px-10 border-b-4 border-gray-500"
               : "text-slate-500 px-10 "
           }
           onClick={() => {
@@ -60,7 +61,7 @@ const Experience = () => {
           }}
           className={
             btn === "acemcb"
-              ? "text-slate-300 py-3 mr-4 border-b-4 border-rose-600"
+              ? "text-slate-300 py-3 mr-4 border-b-4 border-gray-500"
               : "text-slate-500 py-3 mr-4 "
           }
         >

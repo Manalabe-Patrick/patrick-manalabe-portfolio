@@ -1,5 +1,4 @@
 import "./App.css";
-
 //images
 import TogaPic from "./Assets/images/TOGA_PIC.jpg";
 import facebook from "./Assets/images/icon_facebook.svg";
@@ -24,7 +23,6 @@ function App() {
           <div id="stars2"></div>
           <div id="stars3"></div>
         </section>
-
         <Navbar />
         <AboutMe
           TogaPic={TogaPic}
