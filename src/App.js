@@ -19,8 +19,13 @@ function App() {
   return (
     <div className="App">
       <div className="w-100 h-100 bg-slate-800">
-        <Navbar />
+        <section className="wrapper fixed top-0 left-0 z--1">
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+        </section>
 
+        <Navbar />
         <AboutMe
           TogaPic={TogaPic}
           facebook={facebook}
