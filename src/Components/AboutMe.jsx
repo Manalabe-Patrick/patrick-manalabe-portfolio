@@ -9,23 +9,20 @@ const AboutMe = ({ facebook, link, insta, github, TogaPic }) => {
     <div>
       <section className="pt-30 pt-1/2 p-8 content md:px-24 xl:w-3/5 xl:m-auto">
         <FadeInOnScroll>
-          <p className="text-slate-400 text-sm">Hi, my name is</p>
+          <p className="text-slate-400 text-sm text-center">Hi, my name is</p>
 
           <TypingText
             text="PATRICK MANALABE"
             className={
-              "text-3xl py-5 text-rose-600 font-bold md:text-4xl lg:text-6xl"
+              "text-3xl py-10 text-rose-600 font-bold md:text-4xl lg:text-6xl text-center"
             }
           />
-          <p className="text-slate-300 pb-4 lg:text-3xl">
+          <p className="text-slate-300 pb-4 lg:text-3xl text-center">
             I am a Junior full-stack Web developer with a passion for coding and
             design
           </p>
           <div>
-            <button className="my-5 mr-5 py-4 px-12 text-slate-100 text-xs bg-rose-700 rounded-full glow-resume header_btn">
-              RESUME
-            </button>
-            <button className="py-4 px-10 text-slate-100 text-xs bg-rose-700 rounded-full glow-resume ">
+            <button className="py-4 px-10 text-slate-100 text-xs  rounded-full glow-resume block m-auto mt-10">
               CONTACT ME
             </button>
           </div>

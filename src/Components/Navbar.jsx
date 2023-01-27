@@ -1,6 +1,13 @@
 import React from "react";
 
+import resume from "../Assets/files/manalabe_resume.pdf";
+
 export const Navbar = () => {
+  const openResume = () => {
+    // const pdfUrl = "path/to/your/pdf.pdf";
+    window.open(resume, "_blank");
+  };
+
   return (
     <>
       <nav className="fixed  top-0 left-0 bg-slate-800 w-full shadow-md z-10">
@@ -13,7 +20,10 @@ export const Navbar = () => {
             <li className="py-4 px-6 text-slate-300 text-xs">EXPERIENCE</li>
             <li className="py-4 px-6 text-slate-300 text-xs">PROJECTS</li>
             <li>
-              <button className="py-2 px-12 text-slate-100 text-xs bg-rose-700 rounded-full glow-resume">
+              <button
+                className="py-2 px-12 text-slate-100 text-xs bg-rose-700 rounded-full glow-resume"
+                onClick={openResume}
+              >
                 RESUME
               </button>
             </li>
