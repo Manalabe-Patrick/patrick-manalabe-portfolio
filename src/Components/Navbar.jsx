@@ -110,13 +110,13 @@ export const Navbar = ({ jump }) => {
                   PROJECTS
                 </li>
                 <li>
-                  <button
+                  <p
                     className="py-2 px-12 text-slate-700 text-xs rounded-full"
                     style={{ background: "#d1d5db" }}
                     onClick={openResume}
                   >
                     RESUME
-                  </button>
+                  </p>
                 </li>
               </ul>
             </div>
