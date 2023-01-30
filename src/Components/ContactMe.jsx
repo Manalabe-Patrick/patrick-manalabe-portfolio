@@ -1,7 +1,6 @@
 import React from "react";
 
 import FadeInOnScroll from "../Utils/FadeInOnScroll";
-import { useState } from "react";
 import TypingText from "../Utils/TypingText";
 
 const ContactMe = () => {

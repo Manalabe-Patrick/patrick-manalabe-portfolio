@@ -7,7 +7,11 @@ const Project = ({ img, title }) => {
     <>
       <FadeInOnScroll>
         <section className="md:w-96 bg-slate-400 h-64 rounded-md mt-20">
-          <img src={img} className="w-full h-full object-cover rounded-md" />
+          <img
+            src={img}
+            className="w-full h-full object-cover rounded-md"
+            alt={"bg img"}
+          />
           <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base text-center">
             {title}
           </h1>
