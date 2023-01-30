@@ -26,7 +26,8 @@ const AboutMe = ({ facebook, link, insta, github, TogaPic }) => {
             }
           />
           <p className="text-slate-300 pb-4 lg:text-3xl text-center">
-            I am a full-stack web developer with a passion for coding and design
+            I am a junior full-stack web developer with a passion for coding and
+            design
           </p>
           <div>
             <button

@@ -44,7 +44,16 @@ export const Navbar = ({ jump }) => {
             >
               EXPERIENCE
             </li>
-            <li className="py-4 px-6 text-slate-300 text-xs">PROJECTS</li>
+            <li
+              className="py-4 px-6 text-slate-300 text-xs"
+              onClick={() =>
+                document.getElementById("projects").scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+            >
+              PROJECTS
+            </li>
             <li>
               <button
                 className="py-2 px-12 text-slate-100 text-xs bg-rose-700 rounded-full glow-resume"
@@ -90,11 +99,22 @@ export const Navbar = ({ jump }) => {
                 >
                   EXPERIENCE
                 </li>
-                <li className="py-8 px-6 w-full text-slate-300 text-xs">
+                <li
+                  className="py-8 px-6 w-full text-slate-300 text-xs"
+                  onClick={() =>
+                    document.getElementById("projects").scrollIntoView({
+                      behavior: "smooth",
+                    })
+                  }
+                >
                   PROJECTS
                 </li>
                 <li>
-                  <button className="py-2 px-12 text-slate-100 text-xs bg-rose-700 rounded-full">
+                  <button
+                    className="py-2 px-12 text-slate-700 text-xs rounded-full"
+                    style={{ background: "#d1d5db" }}
+                    onClick={openResume}
+                  >
                     RESUME
                   </button>
                 </li>

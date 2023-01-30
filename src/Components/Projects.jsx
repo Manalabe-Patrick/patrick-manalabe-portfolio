@@ -10,8 +10,27 @@ import acemcb from "../Assets/images/acemcb.png";
 
 const Projects = () => {
   return (
-    <div>
-      <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-full">
+    <section
+      className="pt-30 pt-1/2 p-8 content md:px-24 xl:w-3/5 xl:m-auto"
+      id="projects"
+    >
+      <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base">
+        Sample Projects
+      </h1>
+      <hr className="text-slate-100  py-2" />
+      <div className=" md:flex md:justify-around ">
+        <Project img={expenseTracker} title={"Expense Tracker"} />
+        <Project img={myPort} title={"This Portfolio"} />
+      </div>
+      <div className=" md:flex md:justify-around mt-20">
+        <Project img={giolostsImg} title={"Giolosts Website"} />
+        <Project img={acemcb} title={"ACEMCB website features update"} />
+      </div>
+      <div className=" md:flex md:justify-around mt-20">
+        <Project img={gcap} title={"Gordon college Alumni Portal"} />
+      </div>
+
+      {/* <section className="pt-25 pt-1/2 p-8 md:px-24 pt-60 xl:w-3/5 xl:m-auto lg:w-1/2">
         <h1 className="text-bmd py-3 text-rose-600 font-bold md:text-base">
           Sample Projects
         </h1>
@@ -30,8 +49,8 @@ const Projects = () => {
         <div className="block md:flex justify-between">
           <Project img={acemcb} title={"ADDED FEATURES FOR ACEMCB WEBSITE "} />
         </div>
-      </section>
-    </div>
+      </section> */}
+    </section>
   );
 };
 
