@@ -7,7 +7,7 @@ const Experience = () => {
   const baypointe = [
     "Manage hospital website hosting.",
     "Manage and add aditional feature to the hospital website.",
-    "Create custom sql quiries for report purposes.",
+    "Create custom sql queries for report purposes.",
     "Manage Database and Information System.",
   ];
 
